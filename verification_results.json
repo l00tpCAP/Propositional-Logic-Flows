@@ -1,0 +1,49 @@
+{
+  "A_exhaustive_propositional": {
+    "cases": 1193400,
+    "forward_contains_post_transition": 234206,
+    "forward_duality_checks": 586120,
+    "inconsistent": 586120,
+    "order_completeness_checks": 1016806,
+    "prune_calls_checked": 2294376,
+    "retained_index_checks": 586120,
+    "theorem_failures": 0,
+    "transition_alone_consistent": 476252
+  },
+  "B_exhaustive_monotone_predicates": {
+    "monotone_predicates": 189,
+    "predicates_examined": 65812,
+    "theorem_failures": 0
+  },
+  "C_nonmonotone_counterexample": {
+    "minimality_fails": true,
+    "proper_positive_subset_exists": true,
+    "returned_is_positive": true,
+    "returned_set": [
+      2,
+      3
+    ],
+    "trace": [
+      {
+        "P": false,
+        "removed_candidate": 3
+      },
+      {
+        "P": false,
+        "removed_candidate": 5
+      },
+      {
+        "P": true,
+        "removed_candidate": 6
+      }
+    ]
+  },
+  "D_z3_example": {
+    "reason": "z3-solver is not installed",
+    "status": "SKIPPED"
+  },
+  "overall": "PASSED_WITH_OPTIONAL_SKIP",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "randomness": "No random sampling in this revised core verification suite."
+}
